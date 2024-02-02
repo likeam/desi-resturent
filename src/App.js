@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element = {<Home />} />
         <Route path='/about' element ={<About />} />
-        <Route path='/contact' element = {<Contacts />} />
+        <Route path='/contacts' element = {<Contacts />} />
         <Route path='/menu' element = {<Menu />} />
         <Route path='*' element = {<PageNotFound />} />
       </Routes>
