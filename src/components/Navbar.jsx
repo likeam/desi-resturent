@@ -50,7 +50,7 @@ function Navbar() {
 
     return (
         <Box sx={{ flexGrow: 1 }} >
-          <AppBar position="static" sx={{ bgcolor: "#ff9800" }}> 
+          <AppBar position="static" sx={{ bgcolor: "goldenrod" }}> 
             <Toolbar>
               <IconButton
                 size="large"
@@ -102,7 +102,7 @@ function Navbar() {
           </Drawer>
         </Box>
         <Box>
-          <Toolbar />
+          
         </Box>
         </Box>
       );
