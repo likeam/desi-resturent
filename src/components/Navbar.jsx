@@ -18,7 +18,7 @@ function Navbar() {
   }
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", backgroundColor: "lightslategray" }}>
     <Typography
       color={"goldenrod"}
       variant="h6"
@@ -96,6 +96,7 @@ function Navbar() {
                 boxSizing: "border-box",
                 width: "240px",
               },
+              
             }}
           >
             {drawer}

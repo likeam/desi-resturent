@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { Box, Paper, Table, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
+import { Box, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from '@mui/material'
+import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
 function Contacts() {
   return (
@@ -29,6 +30,13 @@ function Contacts() {
                 </TableCell>
               </TableRow>
             </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell>
+                  <SupportAgentIcon />
+                </TableCell>
+              </TableRow>
+            </TableBody>
           </Table>
         </TableContainer>
       </Box>
