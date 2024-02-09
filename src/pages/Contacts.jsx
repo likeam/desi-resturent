@@ -15,8 +15,7 @@ function Contacts() {
         '& h4':{
           fontWeight : 'bold',
           mb: 2,
-        },
-       
+        },       
       }}>
         <Typography variant='h4'>
           Contacts
