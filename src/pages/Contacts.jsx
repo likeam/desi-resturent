@@ -45,7 +45,7 @@ function Contacts() {
                 </TableRow>
                 <TableRow>
                 <TableCell align='center'>
-                  <WhatsAppIcon sx={{color: 'green', pt: 1}} />  03006644777
+                  <WhatsAppIcon sx={{color: 'green', pt: 1}} />  03001112221
                 </TableCell>                 
               </TableRow>
             </TableBody>
